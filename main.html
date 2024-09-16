@@ -1,21 +1,33 @@
 <!DOCTYPE html>
+
 <html>
+
 <head>
+	<link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-	<ul>
-		<li>Item 1</li>
-		<li>Item 2</li>
-		<li>Item 3</li>
-		<li>Item 4</li>
-		<li id="level">Item 5</li>
-		<li>Item 6</li>
-		<li>Item 7</li>
-		<li>Item 8</li>
-		<li>Item 9</li>
-		<li>Item 10</li>
-	</ul>
-    <script type="text/javascript" src="./script.js">
-</script>
+	<!-- the entire body must be written by student -->
+	<div class="grid-container">
+		<div class="grid-item" id="1">1</div>
+		<div class="grid-item" id="2">2</div>
+		<div class="grid-item" id="3">3</div>
+		<div class="grid-item" id="4">4</div>
+		<div class="grid-item" id="5">5</div>
+		<div class="grid-item" id="6">6</div>
+		<div class="grid-item" id="7">7</div>
+		<div class="grid-item" id="8">8</div>
+		<div class="grid-item" id="9">9</div>
+	</div>
+	<form>
+		<label for="block_id">Block ID:</label>
+		<input type="text" id="block_id" name="block_id">
+		<label for="colour_id">Color:</label>
+		<input type="text" id="colour_id" name="colour_id">
+		<button id="change_button">Change</button>
+		<button id="reset_button">Reset</button>
+	</form>
+	<script type="text/javascript" src="./script.js"></script>
 </body>
+
 </html>
